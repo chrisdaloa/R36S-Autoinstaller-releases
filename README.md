@@ -12,6 +12,11 @@
 
 > **Disclaimer:** questo strumento viene fornito così com'è, senza alcuna garanzia. L'uso è a proprio rischio: l'autore non si assume alcuna responsabilità per eventuali danni alla console, alla scheda SD o ad altri dispositivi derivanti dall'uso di questo programma.
 
+### ⚠️ Prima di avviare il programma
+
+- **Avvia il programma come amministratore** (tasto destro sull'eseguibile → **Esegui come amministratore**): serve per poter scrivere sulla scheda SD/USB, altrimenti la scrittura fallisce.
+- **Windows potrebbe mostrare un avviso di sicurezza all'avvio** ("Windows ha protetto il PC" / SmartScreen), perché il programma non è firmato con un certificato a pagamento. È normale per un programma gratuito distribuito così: clicca su **Informazioni aggiuntive** e poi su **Esegui comunque** per procedere.
+
 ---
 
 ## Step 0 — Benvenuto
