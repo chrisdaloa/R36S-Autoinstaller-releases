@@ -10,6 +10,8 @@
 
 > **Prima di iniziare:** ti serve un lettore di schede SD (interno o USB), una scheda SD **vuota o già formattata** di almeno 8 GB, e una connessione internet per il download del firmware (circa 2-3 GB).
 
+> **Disclaimer:** questo strumento viene fornito così com'è, senza alcuna garanzia. L'uso è a proprio rischio: l'autore non si assume alcuna responsabilità per eventuali danni alla console, alla scheda SD o ad altri dispositivi derivanti dall'uso di questo programma.
+
 ---
 
 ## Step 0 — Benvenuto
