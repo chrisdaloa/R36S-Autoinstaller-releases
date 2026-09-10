@@ -4,9 +4,10 @@
 
 ## ⬇️ Download
 
-**[Scarica l'ultima versione](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/latest)** dalla pagina Releases di questo repository.
+<!-- Il nome del file include la versione: aggiornare questo link ad ogni nuova release pubblicata. -->
+**[Scarica l'ultima versione](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.1/R36S.Auto-Installer_0.1.1_x64-setup.exe)** — link diretto all'eseguibile, senza passare dalla pagina Releases.
 
-> Questo repository contiene solo gli eseguibili pronti per il download. Il codice sorgente del progetto vive in un repository separato.
+> Questo repository contiene solo gli eseguibili pronti per il download. Il codice sorgente del progetto vive in un repository separato. La pagina [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) elenca anche un installer `.msi` alternativo e un file `latest.json` (usato solo internamente dal programma per controllare gli aggiornamenti, non va scaricato a mano).
 
 > **Prima di iniziare:** ti serve un lettore di schede SD (interno o USB), una scheda SD **vuota o già formattata** di almeno 8 GB, e una connessione internet per il download del firmware (circa 2-3 GB).
 
