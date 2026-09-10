@@ -13,6 +13,8 @@
 
 > **Disclaimer:** questo strumento viene fornito così com'è, senza alcuna garanzia. L'uso è a proprio rischio: l'autore non si assume alcuna responsabilità per eventuali danni alla console, alla scheda SD o ad altri dispositivi derivanti dall'uso di questo programma.
 
+> **Fai un backup dei giochi:** Questo strumento non scarica o installa giochi sulla SD, è necessario quindi fare un backup dei giochi dalla propria SD e poi copiarli sulla nuova SD al termine della procedura
+
 ### ⚠️ Prima di avviare il programma
 
 - **Avvia il programma come amministratore** (tasto destro sull'eseguibile → **Esegui come amministratore**): serve per poter scrivere sulla scheda SD/USB, altrimenti la scrittura fallisce.
