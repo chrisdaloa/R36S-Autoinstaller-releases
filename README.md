@@ -9,7 +9,7 @@
 
 > Questo repository contiene solo gli eseguibili pronti per il download. Il codice sorgente del progetto vive in un repository separato. La pagina [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) elenca anche un installer `.msi` alternativo e un file `latest.json` (usato solo internamente dal programma per controllare gli aggiornamenti, non va scaricato a mano).
 
-> **Prima di iniziare:** ti serve un lettore di schede SD (interno o USB), una scheda SD **vuota o già formattata** di almeno 8 GB, e una connessione internet per il download del firmware (circa 2-3 GB).
+> **Prima di iniziare:** ti serve un lettore di schede SD (interno o USB), una scheda SD **vuota o già formattata** di almeno 8 GB, e una connessione internet per il download del firmware (circa 2-3 GB). **Richiede Windows 10 o 11** — non è compatibile con Windows 7/8.1 (sistemi ormai fuori supporto Microsoft): il programma non riesce nemmeno ad avviarsi su quelle versioni.
 
 > **Disclaimer:** questo strumento viene fornito così com'è, senza alcuna garanzia. L'uso è a proprio rischio: l'autore non si assume alcuna responsabilità per eventuali danni alla console, alla scheda SD o ad altri dispositivi derivanti dall'uso di questo programma.
 
