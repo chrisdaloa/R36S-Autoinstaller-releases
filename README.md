@@ -131,6 +131,12 @@ Se vuoi, puoi dare un nome alla scheda (es. "Rossa-01"): la prossima volta che l
 
 ---
 
+## Problemi con gli stick analogici?
+
+Se sulla tua console gli stick sono **scambiati o invertiti** (per andare su e giù devi muovere a destra e sinistra), c'è uno script di correzione con relativa guida: [Correggere gli stick analogici](fix-stick/GUIDA.md).
+
+---
+
 ## Serve aiuto?
 
 Se qualcosa non funziona come previsto, visita la [wiki online della community](https://pixelpocket.1612.it/r36s) o chiedi supporto nel [server Discord](https://discord.gg/tusqNhr2V).
