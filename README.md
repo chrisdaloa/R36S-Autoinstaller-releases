@@ -1,5 +1,7 @@
 # R36S Auto-Installer
 
+🇬🇧 [English version](./README.en.md)
+
 **R36S Auto-Installer** è un programma gratuito per Windows che automatizza l'installazione del firmware **dArkOSen** sulla tua console R36S. Ti guida passo per passo: scarica l'ultima versione da GitHub, prepara la scheda SD e copia i file corretti per il modello della tua scheda madre — **senza bisogno di usare il terminale o programmi tecnici**.
 
 ## ⬇️ Download

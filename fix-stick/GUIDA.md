@@ -1,5 +1,7 @@
 # Correggere gli stick analogici scambiati o invertiti
 
+🇬🇧 [English version](./GUIDA.en.md)
+
 Su alcune R36S "clone" (schede come **G80C-MB** e **G80CA-MB**) gli stick sono collegati in un ordine diverso da quello previsto: per andare su e giù devi muovere lo stick a destra e a sinistra, oppure uno dei due va al contrario.
 
 Questi due file lo sistemano direttamente dalla console, senza toccare il firmware né i giochi.
