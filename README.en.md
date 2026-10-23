@@ -35,6 +35,8 @@ At the top of the screen you will find the **Language** selector (Italiano / Eng
 
 Press **Start** to continue.
 
+> **Already wrote the firmware to the SD card with another program?** Press **I already wrote the firmware to the SD card**: you skip the download, the extraction and the writing, pick the card (Step 3), the program checks its contents (Step 4, check) and you carry on with the panel selection (Steps 5 and 6). In this path the card is neither erased nor rewritten.
+
 ---
 
 ## Step 1 — Download the firmware

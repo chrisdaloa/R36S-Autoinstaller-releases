@@ -35,6 +35,8 @@ In alto nella schermata trovi il selettore **Lingua** (Italiano / English): il p
 
 Premi **Inizia** per procedere.
 
+> **Hai già scritto il firmware sulla SD con un altro programma?** Premi **Ho già scritto il firmware sulla scheda SD**: salti download, estrazione e scrittura, scegli la scheda (Step 3), il programma ne controlla il contenuto (Step 4, verifica) e prosegui con la scelta del pannello (Step 5 e 6). In questo percorso la scheda non viene cancellata né riscritta.
+
 ---
 
 ## Step 1 — Scarica il firmware
