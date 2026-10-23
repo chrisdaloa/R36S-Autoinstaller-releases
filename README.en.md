@@ -7,7 +7,7 @@
 ## ⬇️ Download
 
 <!-- The file name includes the version: update this link with every new release published (keep in sync with README.md). -->
-**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.1/R36S.Auto-Installer_0.1.1_x64-setup.exe)** — direct link to the executable, no need to go through the Releases page.
+**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.2/R36S.Auto-Installer_0.1.2_x64-setup.exe)** — direct link to the executable, no need to go through the Releases page.
 
 > This repository only contains the ready-to-download executables. The project's source code lives in a separate repository. The [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) page also lists an alternative `.msi` installer and a `latest.json` file (used only internally by the program to check for updates, you don't need to download it).
 
