@@ -31,6 +31,8 @@ When the program starts you will see a short introduction, a link to the origina
 
 ![Welcome screen](en/01-benvenuto.png)
 
+At the top of the screen you will find the **Language** selector (Italiano / English): the program starts in your system's language, but you can change it here.
+
 Press **Start** to continue.
 
 ---
@@ -64,6 +66,8 @@ Insert the SD card into the reader. The program lists only removable disks (SD/U
 ![SD card selection](en/04-selezione-sd.png)
 
 > **Tip:** if the card has been used before (for another console, a Raspberry Pi, a PC...), format it completely before selecting it, to avoid recognition problems during installation.
+
+> **Mind your games:** everything on the card will be erased. If it holds games or saves, copy them to your PC first and put them back on the card when the installation is finished.
 
 Select your card from the list (check that the size and name match your SD card) and press **Continue**. If the card doesn't appear, use **Refresh list** after inserting it.
 

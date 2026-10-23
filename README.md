@@ -31,6 +31,8 @@ All'avvio del programma trovi una breve introduzione, un link al progetto origin
 
 ![Schermata di benvenuto](01-benvenuto.png)
 
+In alto nella schermata trovi il selettore **Lingua** (Italiano / English): il programma parte nella lingua del tuo sistema, ma puoi cambiarla qui.
+
 Premi **Inizia** per procedere.
 
 ---
@@ -64,6 +66,8 @@ Inserisci la scheda SD nel lettore. Il programma elenca solo i dischi rimovibili
 ![Selezione della scheda SD](04-selezione-sd.png)
 
 > **Consiglio:** se la scheda è già stata usata in precedenza (per un'altra console, un Raspberry Pi, un PC...), formattala completamente prima di selezionarla, per evitare problemi di riconoscimento durante l'installazione.
+
+> **Attenzione ai tuoi giochi:** tutto il contenuto della scheda verrà cancellato. Se contiene giochi o salvataggi, copiali prima sul PC e rimettili sulla scheda a installazione finita.
 
 Seleziona la tua scheda dall'elenco (verifica che dimensione e nome corrispondano alla tua SD) e premi **Continua**. Se la scheda non compare, usa **Aggiorna elenco** dopo averla inserita.
 
