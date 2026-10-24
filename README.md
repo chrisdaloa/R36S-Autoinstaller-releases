@@ -7,7 +7,11 @@
 ## ⬇️ Download
 
 <!-- Il nome del file include la versione: aggiornare questo link ad ogni nuova release pubblicata. -->
-**[Scarica l'ultima versione](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.2/R36S.Auto-Installer_0.1.2_x64-setup.exe)** — link diretto all'eseguibile, senza passare dalla pagina Releases.
+**[Scarica l'ultima versione](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.4/R36S.Auto-Installer_0.1.4_x64-setup.exe)** — link diretto all'eseguibile, senza passare dalla pagina Releases.
+
+☕ Il programma è gratuito: se ti è utile, puoi offrirmi un caffè su Ko-fi.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/chrisdaloa)
 
 > Questo repository contiene solo gli eseguibili pronti per il download. Il codice sorgente del progetto vive in un repository separato. La pagina [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) elenca anche un installer `.msi` alternativo e un file `latest.json` (usato solo internamente dal programma per controllare gli aggiornamenti, non va scaricato a mano).
 
@@ -31,7 +35,7 @@ All'avvio del programma trovi una breve introduzione, un link al progetto origin
 
 ![Schermata di benvenuto](01-benvenuto.png)
 
-In alto nella schermata trovi il selettore **Lingua** (Italiano / English): il programma parte nella lingua del tuo sistema, ma puoi cambiarla qui.
+In alto a destra trovi le bandierine delle lingue (italiana e britannica): il programma parte nella lingua del tuo sistema, ma puoi cambiarla con un clic sulla bandiera. La lingua attiva è quella evidenziata.
 
 Premi **Inizia** per procedere.
 
@@ -137,6 +141,8 @@ Se dopo l'attesa lo schermo resta nero o disturbato, significa che il pannello s
 
 Se vuoi, puoi dare un nome alla scheda (es. "Rossa-01"): la prossima volta che la userai con questo programma, il pannello funzionante verrà ricordato e riproposto automaticamente, senza doverlo ritrovare da capo.
 
+Il programma è gratuito: se ti è stato utile e vuoi sostenerne lo sviluppo, il pulsante **Offrimi un caffè su Ko-fi** apre la pagina [ko-fi.com/chrisdaloa](https://ko-fi.com/chrisdaloa), dove puoi lasciare una mancia. È del tutto facoltativo.
+
 ---
 
 ## Problemi con gli stick analogici?
@@ -148,3 +154,11 @@ Se sulla tua console gli stick sono **scambiati o invertiti** (per andare su e g
 ## Serve aiuto?
 
 Se qualcosa non funziona come previsto, visita la [wiki online della community](https://pixelpocket.1612.it/r36s) o chiedi supporto nel [server Discord](https://discord.gg/tusqNhr2V).
+
+---
+
+## ☕ Supporta il progetto
+
+R36S Auto-Installer è gratuito e lo sviluppo nel tempo libero. Se ti ha fatto risparmiare tempo e vuoi sostenerne lo sviluppo, puoi offrirmi un caffè su Ko-fi: è del tutto facoltativo, ma fa molto piacere.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/chrisdaloa)

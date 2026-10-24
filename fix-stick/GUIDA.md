@@ -30,3 +30,7 @@ L'esito dell'ultima operazione è salvato nel file **`fix_stick_risultato.txt`**
 
 - Un aggiornamento di dArkOSen può rimettere gli stick come prima: in quel caso basta riavviare di nuovo **Correggi Stick**.
 - Il profilo di **PortMaster** viene corretto con lo stesso criterio ma non è stato provato con un gioco: se in un port uno stick risulta ancora al contrario, segnalalo.
+
+## Ti è stato utile?
+
+Se lo script ti ha risolto il problema, puoi offrirmi un caffè su [Ko-fi](https://ko-fi.com/chrisdaloa) ☕ È del tutto facoltativo.

@@ -7,7 +7,11 @@
 ## ⬇️ Download
 
 <!-- The file name includes the version: update this link with every new release published (keep in sync with README.md). -->
-**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.2/R36S.Auto-Installer_0.1.2_x64-setup.exe)** — direct link to the executable, no need to go through the Releases page.
+**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.4/R36S.Auto-Installer_0.1.4_x64-setup.exe)** — direct link to the executable, no need to go through the Releases page.
+
+☕ The program is free: if you find it useful, you can buy me a coffee on Ko-fi.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/chrisdaloa)
 
 > This repository only contains the ready-to-download executables. The project's source code lives in a separate repository. The [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) page also lists an alternative `.msi` installer and a `latest.json` file (used only internally by the program to check for updates, you don't need to download it).
 
@@ -31,7 +35,7 @@ When the program starts you will see a short introduction, a link to the origina
 
 ![Welcome screen](en/01-benvenuto.png)
 
-At the top of the screen you will find the **Language** selector (Italiano / English): the program starts in your system's language, but you can change it here.
+At the top right you will find the language flags (Italian and British): the program starts in your system's language, but you can change it by clicking a flag. The active language is the highlighted one.
 
 Press **Start** to continue.
 
@@ -137,6 +141,8 @@ If after waiting the screen stays black or distorted, the panel you chose is not
 
 If you like, you can give the board a name (e.g. "Red-01"): the next time you use it with this program, the working panel will be remembered and suggested automatically, so you won't have to find it again from scratch.
 
+The program is free: if it helped you and you want to support its development, the **Buy me a coffee on Ko-fi** button opens the page [ko-fi.com/chrisdaloa](https://ko-fi.com/chrisdaloa), where you can leave a tip. It is entirely optional.
+
 ---
 
 ## Problems with the analog sticks?
@@ -148,3 +154,11 @@ If the sticks on your console are **swapped or inverted** (to go up and down you
 ## Need help?
 
 If something doesn't work as expected, visit the [community's online wiki](https://pixelpocket.1612.it/r36s) (in Italian) or ask for support on the [Discord server](https://discord.gg/tusqNhr2V).
+
+---
+
+## ☕ Support the project
+
+R36S Auto-Installer is free and I develop it in my spare time. If it saved you time and you want to support its development, you can buy me a coffee on Ko-fi: it is entirely optional, but very much appreciated.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/chrisdaloa)

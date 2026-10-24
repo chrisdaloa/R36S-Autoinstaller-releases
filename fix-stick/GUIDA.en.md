@@ -30,3 +30,7 @@ The result of the last operation is saved in the file **`fix_stick_risultato.txt
 
 - A dArkOSen update may put the sticks back as before: in that case just run **Correggi Stick** again.
 - The **PortMaster** profile is corrected with the same criterion but has not been tested with a game: if in a port a stick is still inverted, please report it.
+
+## Did it help?
+
+If the script fixed your problem, you can buy me a coffee on [Ko-fi](https://ko-fi.com/chrisdaloa) ☕ It is entirely optional.
