@@ -7,7 +7,7 @@
 ## ⬇️ Download
 
 <!-- Il nome del file include la versione: aggiornare questo link ad ogni nuova release pubblicata. -->
-**[Scarica l'ultima versione](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.4/R36S.Auto-Installer_0.1.4_x64-setup.exe)** — link diretto all'eseguibile, senza passare dalla pagina Releases.
+**[Scarica l'ultima versione](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.5/R36S.Auto-Installer_0.1.5_x64-setup.exe)** — link diretto all'eseguibile, senza passare dalla pagina Releases.
 
 ☕ Il programma è gratuito: se ti è utile, puoi offrirmi un caffè su Ko-fi.
 
@@ -154,6 +154,17 @@ Se sulla tua console gli stick sono **scambiati o invertiti** (per andare su e g
 ## Serve aiuto?
 
 Se qualcosa non funziona come previsto, visita la [wiki online della community](https://pixelpocket.1612.it/r36s) o chiedi supporto nel [server Discord](https://discord.gg/tusqNhr2V).
+
+### Segnalare un problema o proporre un'idea
+
+In qualunque momento puoi premere **Segnala / Suggerisci** in alto a destra: si apre un modulo sopra la schermata, senza perdere il punto in cui eri.
+
+![Segnala un problema o suggerisci un'idea](11-segnala.png)
+
+- Scegli se **qualcosa non funziona** o se **hai un suggerimento**, scrivi un titolo breve e una descrizione e premi **Invia**. Non serve nessun account.
+- Per i problemi puoi allegare le ultime righe del registro del programma: con **Mostra cosa verrà inviato** vedi esattamente cosa parte (il nome del tuo utente nei percorsi viene tolto). Il registro non viene mai inviato se non spunti la casella.
+- Vengono inviati anche la versione del programma, la versione di Windows e il passo in cui ti trovi.
+- La segnalazione diventa **pubblica** su GitHub: non scrivere email, numeri di telefono o altri dati personali. Dopo l'invio trovi il link per seguirla.
 
 ---
 

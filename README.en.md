@@ -7,7 +7,7 @@
 ## ⬇️ Download
 
 <!-- The file name includes the version: update this link with every new release published (keep in sync with README.md). -->
-**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.4/R36S.Auto-Installer_0.1.4_x64-setup.exe)** — direct link to the executable, no need to go through the Releases page.
+**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.5/R36S.Auto-Installer_0.1.5_x64-setup.exe)** — direct link to the executable, no need to go through the Releases page.
 
 ☕ The program is free: if you find it useful, you can buy me a coffee on Ko-fi.
 
@@ -154,6 +154,17 @@ If the sticks on your console are **swapped or inverted** (to go up and down you
 ## Need help?
 
 If something doesn't work as expected, visit the [community's online wiki](https://pixelpocket.1612.it/r36s) (in Italian) or ask for support on the [Discord server](https://discord.gg/tusqNhr2V).
+
+### Report a problem or suggest an idea
+
+At any time you can press **Report / Suggest** at the top right: a form opens over the screen, without losing your place.
+
+![Report a problem or suggest an idea](en/11-segnala.png)
+
+- Choose whether **something doesn't work** or **you have a suggestion**, write a short title and a description and press **Send**. No account needed.
+- For problems you can attach the last lines of the program log: **Show what will be sent** shows you exactly what goes out (your user name is removed from file paths). The log is never sent unless you tick the box.
+- The program version, the Windows version and the step you are on are sent too.
+- The report becomes **public** on GitHub: do not write emails, phone numbers or other personal data. After sending you get a link to follow it.
 
 ---
 
