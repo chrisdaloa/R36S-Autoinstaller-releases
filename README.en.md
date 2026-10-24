@@ -153,7 +153,7 @@ If the sticks on your console are **swapped or inverted** (to go up and down you
 
 ## Need help?
 
-If something doesn't work as expected, visit the [community's online wiki](https://pixelpocket.1612.it/r36s) (in Italian) or ask for support on the [Discord server](https://discord.gg/tusqNhr2V).
+If something doesn't work as expected, visit the [community's online wiki](https://pixelpocket.1612.it/r36s) (in Italian) or ask for support on the [Discord server](https://discord.gg/XNpjcS5km).
 
 ### Report a problem or suggest an idea
 

@@ -24,7 +24,7 @@ Avvia **Annulla Correzione Stick** dallo stesso menu: rimette tutto com'era prim
 
 ## Se non succede niente, o hai dubbi
 
-L'esito dell'ultima operazione è salvato nel file **`fix_stick_risultato.txt`**, nella stessa cartella `tools` (lo leggi dal PC). Se chiedi aiuto nel [server Discord](https://discord.gg/tusqNhr2V), allega quel file e indica il **modello della scheda madre** (è stampato sulla scheda).
+L'esito dell'ultima operazione è salvato nel file **`fix_stick_risultato.txt`**, nella stessa cartella `tools` (lo leggi dal PC). Se chiedi aiuto nel [server Discord](https://discord.gg/XNpjcS5km), allega quel file e indica il **modello della scheda madre** (è stampato sulla scheda).
 
 ## Cose da sapere
 

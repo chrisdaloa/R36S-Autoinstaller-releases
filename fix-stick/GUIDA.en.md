@@ -24,7 +24,7 @@ Run **Annulla Correzione Stick** from the same menu: it puts everything back as 
 
 ## If nothing happens, or you have doubts
 
-The result of the last operation is saved in the file **`fix_stick_risultato.txt`**, in the same `tools` folder (you can read it from the PC; its content is in Italian). If you ask for help on the [Discord server](https://discord.gg/tusqNhr2V), attach that file and state your **motherboard model** (it is printed on the board).
+The result of the last operation is saved in the file **`fix_stick_risultato.txt`**, in the same `tools` folder (you can read it from the PC; its content is in Italian). If you ask for help on the [Discord server](https://discord.gg/XNpjcS5km), attach that file and state your **motherboard model** (it is printed on the board).
 
 ## Good to know
 
