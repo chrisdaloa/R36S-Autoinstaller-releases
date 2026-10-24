@@ -7,7 +7,7 @@
 ## ⬇️ Download
 
 <!-- Il nome del file include la versione: aggiornare questo link ad ogni nuova release pubblicata. -->
-**[Scarica l'ultima versione](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.5/R36S.Auto-Installer_0.1.5_x64-setup.exe)** — link diretto all'eseguibile, senza passare dalla pagina Releases.
+**[Scarica l'ultima versione](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.6/R36S.Auto-Installer_0.1.6_x64-setup.exe)** — link diretto all'eseguibile, senza passare dalla pagina Releases.
 
 ☕ Il programma è gratuito: se ti è utile, puoi offrirmi un caffè su Ko-fi.
 
@@ -173,3 +173,11 @@ In qualunque momento puoi premere **Segnala / Suggerisci** in alto a destra: si 
 R36S Auto-Installer è gratuito e lo sviluppo nel tempo libero. Se ti ha fatto risparmiare tempo e vuoi sostenerne lo sviluppo, puoi offrirmi un caffè su Ko-fi: è del tutto facoltativo, ma fa molto piacere.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/chrisdaloa)
+
+---
+
+## Licenza
+
+R36S Auto-Installer è **freeware**: gratuito, ridistribuibile così com'è, senza garanzia — condizioni complete in [LICENSE.txt](LICENSE.txt). Il firmware dArkOSen non fa parte del programma: viene scaricato dal [repository originale](https://github.com/djparentx/dArkOSen-R36S) ed è soggetto alla propria licenza.
+
+Il programma include componenti di terze parti, ciascuno con la propria licenza: [7-Zip](licenses/sevenzip_license.txt) (GNU LGPL, sorgente su [7-zip.org](https://www.7-zip.org/)) e le librerie elencate in [third_party_notices.txt](licenses/third_party_notices.txt). Gli stessi file sono installati insieme al programma.

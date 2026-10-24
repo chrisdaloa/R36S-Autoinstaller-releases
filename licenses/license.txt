@@ -1,0 +1,43 @@
+R36S Auto-Installer
+Copyright (c) 2026 chrisdaloa
+https://github.com/chrisdaloa/R36S-Autoinstaller-releases
+
+=== Italiano ===
+
+R36S Auto-Installer è un programma gratuito (freeware).
+
+1. Puoi usarlo gratuitamente, anche su più computer.
+2. Puoi ridistribuire l'installer e gli script di questo progetto così come
+   sono, senza modificarli e senza farli pagare, indicando la fonte (il link
+   qui sopra).
+3. Il programma è fornito "così com'è", senza alcuna garanzia, esplicita o
+   implicita. L'autore non è responsabile di eventuali danni alla console,
+   alla scheda SD, al computer o ad altri dispositivi, né della perdita di
+   dati, derivanti dall'uso del programma.
+4. Il firmware dArkOSen non fa parte di questo programma: viene scaricato
+   dal suo repository originale (https://github.com/djparentx/dArkOSen-R36S)
+   ed è soggetto alla propria licenza.
+5. Il programma contiene componenti di terze parti (tra cui 7-Zip), ciascuno
+   soggetto alla propria licenza: vedi third_party_notices.txt e
+   sevenzip_license.txt. In caso di contrasto con queste condizioni,
+   per quei componenti prevalgono le rispettive licenze.
+
+=== English ===
+
+R36S Auto-Installer is free software in the sense of freeware.
+
+1. You may use it free of charge, on any number of computers.
+2. You may redistribute the installer and the scripts of this project as
+   they are, unmodified and free of charge, stating the source (the link
+   above).
+3. The program is provided "as is", without warranty of any kind, express
+   or implied. The author is not liable for any damage to the console, the
+   SD card, the computer or other devices, nor for any loss of data,
+   resulting from the use of the program.
+4. The dArkOSen firmware is not part of this program: it is downloaded from
+   its original repository (https://github.com/djparentx/dArkOSen-R36S) and
+   is subject to its own license.
+5. The program includes third-party components (including 7-Zip), each
+   subject to its own license: see third_party_notices.txt and
+   sevenzip_license.txt. Where those licenses conflict with these terms,
+   they prevail for the respective components.
