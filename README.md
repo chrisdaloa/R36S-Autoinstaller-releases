@@ -2,12 +2,14 @@
 
 🇬🇧 [English version](./README.en.md)
 
-**R36S Auto-Installer** è un programma gratuito per Windows che automatizza l'installazione del firmware **dArkOSen** sulla tua console R36S. Ti guida passo per passo: scarica l'ultima versione da GitHub, prepara la scheda SD e copia i file corretti per il modello della tua scheda madre — **senza bisogno di usare il terminale o programmi tecnici**.
+**R36S Auto-Installer** è un programma gratuito per Windows e Linux che automatizza l'installazione del firmware **dArkOSen** sulla tua console R36S. Ti guida passo per passo: scarica l'ultima versione da GitHub, prepara la scheda SD e copia i file corretti per il modello della tua scheda madre — **senza bisogno di usare il terminale o programmi tecnici**.
 
 ## ⬇️ Download
 
 <!-- Il nome del file include la versione: aggiornare questo link ad ogni nuova release pubblicata. -->
-**[Scarica l'ultima versione](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.6/R36S.Auto-Installer_0.1.6_x64-setup.exe)** — link diretto all'eseguibile, senza passare dalla pagina Releases.
+**[Scarica l'ultima versione](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.7/R36S.Auto-Installer_0.1.7_x64-setup.exe)** — link diretto all'eseguibile per Windows, senza passare dalla pagina Releases.
+
+**[Scarica per Linux (AppImage)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.7/R36S.Auto-Installer_0.1.7_amd64.AppImage)** — vedi [Usare il programma su Linux](#usare-il-programma-su-linux).
 
 ☕ Il programma è gratuito: se ti è utile, puoi offrirmi un caffè su Ko-fi.
 
@@ -137,6 +139,8 @@ Il pannello scelto viene applicato e il programma conferma che l'installazione �
 
 Leggi con attenzione l'avviso sul primo avvio: **lo schermo della console può restare nero o mostrare solo un cursore per diversi minuti** al primo avvio, mentre il sistema espande il filesystem — è normale, non spegnere la console e attendi.
 
+**Copia i giochi solo dopo il primo avvio:** a console spenta, riporta la SD nel PC e aggiungili nella partizione `EASYROMS`. Prima del primo avvio quella partizione è ancora piccola (100 MB) e viene sistemata dalla console.
+
 Se dopo l'attesa lo schermo resta nero o disturbato, significa che il pannello scelto non è quello giusto per la tua scheda madre: spegni la console, reinserisci la SD nel lettore, premi **"Indietro"** in alto nel programma e prova il pannello successivo dall'elenco (Step 6).
 
 Se vuoi, puoi dare un nome alla scheda (es. "Rossa-01"): la prossima volta che la userai con questo programma, il pannello funzionante verrà ricordato e riproposto automaticamente, senza doverlo ritrovare da capo.
@@ -144,6 +148,16 @@ Se vuoi, puoi dare un nome alla scheda (es. "Rossa-01"): la prossima volta che l
 Il programma è gratuito: se ti è stato utile e vuoi sostenerne lo sviluppo, il pulsante **Offrimi un caffè su Ko-fi** apre la pagina [ko-fi.com/chrisdaloa](https://ko-fi.com/chrisdaloa), dove puoi lasciare una mancia. È del tutto facoltativo.
 
 ---
+
+## Usare il programma su Linux
+
+Su Linux il programma è un file **AppImage** (non serve installarlo):
+
+1. Scarica il file `.AppImage`, aprilo con il tasto destro → **Proprietà** → **Permessi** e spunta *Consenti l'esecuzione*, oppure da terminale: `chmod +x "R36S.Auto-Installer_*.AppImage"`.
+2. Avvialo con un doppio clic. Se non parte, installa `libfuse2` (su Ubuntu/Debian: `sudo apt install libfuse2`).
+3. I passi sono gli stessi descritti sopra. Quando stai per scrivere sulla scheda SD compare la finestra della **password di amministratore**: serve solo per scrivere sulla SD. Se la chiudi senza confermare, il programma ti avvisa e puoi riprovare.
+
+La versione per Linux è stata provata finora su una sola distribuzione: se incontri problemi, usa il pulsante **Segnala / Suggerisci** nel programma.
 
 ## Problemi con gli stick analogici?
 

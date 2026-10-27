@@ -2,12 +2,14 @@
 
 🇮🇹 [Versione italiana](./README.md)
 
-**R36S Auto-Installer** is a free Windows program that automates installing the **dArkOSen** firmware on your R36S console. It guides you step by step: it downloads the latest version from GitHub, prepares the SD card and copies the right files for your motherboard model — **no terminal or technical tools needed**. The program interface is available in Italian and English.
+**R36S Auto-Installer** is a free Windows and Linux program that automates installing the **dArkOSen** firmware on your R36S console. It guides you step by step: it downloads the latest version from GitHub, prepares the SD card and copies the right files for your motherboard model — **no terminal or technical tools needed**. The program interface is available in Italian and English.
 
 ## ⬇️ Download
 
 <!-- The file name includes the version: update this link with every new release published (keep in sync with README.md). -->
-**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.6/R36S.Auto-Installer_0.1.6_x64-setup.exe)** — direct link to the executable, no need to go through the Releases page.
+**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.7/R36S.Auto-Installer_0.1.7_x64-setup.exe)** — direct link to the Windows executable, no need to go through the Releases page.
+
+**[Download for Linux (AppImage)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.7/R36S.Auto-Installer_0.1.7_amd64.AppImage)** — see [Using the program on Linux](#using-the-program-on-linux).
 
 ☕ The program is free: if you find it useful, you can buy me a coffee on Ko-fi.
 
@@ -137,6 +139,8 @@ The chosen panel is applied and the program confirms that the installation is fi
 
 Read the first-boot notice carefully: **the console screen may stay black or show only a cursor for several minutes** on first boot, while the system expands the filesystem — this is normal, do not turn the console off and wait.
 
+**Copy your games only after the first boot:** with the console turned off, put the SD card back in the PC and add them to the `EASYROMS` partition. Before the first boot that partition is still small (100 MB) and is set up by the console.
+
 If after waiting the screen stays black or distorted, the panel you chose is not the right one for your motherboard: turn the console off, put the SD card back in the reader, press **"Back"** at the top of the program and try the next panel in the list (Step 6).
 
 If you like, you can give the board a name (e.g. "Red-01"): the next time you use it with this program, the working panel will be remembered and suggested automatically, so you won't have to find it again from scratch.
@@ -144,6 +148,16 @@ If you like, you can give the board a name (e.g. "Red-01"): the next time you us
 The program is free: if it helped you and you want to support its development, the **Buy me a coffee on Ko-fi** button opens the page [ko-fi.com/chrisdaloa](https://ko-fi.com/chrisdaloa), where you can leave a tip. It is entirely optional.
 
 ---
+
+## Using the program on Linux
+
+On Linux the program is an **AppImage** file (no installation needed):
+
+1. Download the `.AppImage` file, right-click it → **Properties** → **Permissions** and tick *Allow executing*, or from a terminal: `chmod +x "R36S.Auto-Installer_*.AppImage"`.
+2. Start it with a double click. If it does not start, install `libfuse2` (on Ubuntu/Debian: `sudo apt install libfuse2`).
+3. The steps are the same as described above. Right before writing to the SD card, the **administrator password** prompt appears: it is only needed to write to the SD card. If you close it without confirming, the program tells you and you can try again.
+
+The Linux version has so far been tried on a single distribution: if you run into problems, use the **Report / Suggest** button in the program.
 
 ## Problems with the analog sticks?
 
