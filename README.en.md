@@ -2,14 +2,16 @@
 
 🇮🇹 [Versione italiana](./README.md)
 
-**R36S Auto-Installer** is a free Windows and Linux program that automates installing the **dArkOSen** firmware on your R36S console. It guides you step by step: it downloads the latest version from GitHub, prepares the SD card and copies the right files for your motherboard model — **no terminal or technical tools needed**. The program interface is available in Italian and English.
+**R36S Auto-Installer** is a free Windows, Linux and Mac program that automates installing the **dArkOSen** firmware on your R36S console. It guides you step by step: it downloads the latest version from GitHub, prepares the SD card and copies the right files for your motherboard model — **no terminal or technical tools needed**. The program interface is available in Italian and English.
 
 ## ⬇️ Download
 
 <!-- The file name includes the version: update this link with every new release published (keep in sync with README.md). -->
-**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.7/R36S.Auto-Installer_0.1.7_x64-setup.exe)** — direct link to the Windows executable, no need to go through the Releases page.
+**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.8/R36S.Auto-Installer_0.1.8_x64-setup.exe)** — direct link to the Windows executable, no need to go through the Releases page.
 
-**[Download for Linux (AppImage)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.7/R36S.Auto-Installer_0.1.7_amd64.AppImage)** — see [Using the program on Linux](#using-the-program-on-linux).
+**[Download for Linux (AppImage)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.8/R36S.Auto-Installer_0.1.8_amd64.AppImage)** — see [Using the program on Linux](#using-the-program-on-linux).
+
+**[Download for Mac (.dmg)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.8/R36S.Auto-Installer_0.1.8_universal.dmg)** — Intel and Apple Silicon, see [Using the program on a Mac](#using-the-program-on-a-mac).
 
 ☕ The program is free: if you find it useful, you can buy me a coffee on Ko-fi.
 
@@ -158,6 +160,17 @@ On Linux the program is an **AppImage** file (no installation needed):
 3. The steps are the same as described above. Right before writing to the SD card, the **administrator password** prompt appears: it is only needed to write to the SD card. If you close it without confirming, the program tells you and you can try again.
 
 The Linux version has so far been tried on a single distribution: if you run into problems, use the **Report / Suggest** button in the program.
+
+## Using the program on a Mac
+
+On a Mac (Intel and Apple Silicon) the program is a **.dmg** file:
+
+1. Open the `.dmg` and drag **R36S Auto-Installer** into the **Applications** folder.
+2. The program is not signed with a paid Apple certificate, so the first time you open it macOS says it cannot verify it. Open **System Settings** → **Privacy & Security**, scroll to the message about R36S Auto-Installer and click **Open Anyway** (on older macOS versions, right-click the app → **Open** is enough). You only need to do this once.
+3. The steps are the same as described above. When you are about to write to the SD card, the **Mac password** window appears: it is only needed to write to the SD card. If you close it without confirming, the program tells you and you can try again.
+4. After writing, when you reinsert the card, the Mac may say "the disk is not readable". Click **Ignore**, **never "Initialize"**: it would erase the system you just wrote.
+
+The Mac version has not yet been tested on a real Mac: if you run into problems, use the **Report / Suggest** button in the program.
 
 ## Problems with the analog sticks?
 
