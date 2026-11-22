@@ -180,7 +180,7 @@ Se sulla tua console gli stick sono **scambiati o invertiti** (per andare su e g
 
 ## Serve aiuto?
 
-Se qualcosa non funziona come previsto, visita la [wiki online della community](https://pixelpocket.1612.it/r36s) o chiedi supporto nel [server Discord](https://discord.gg/XNpjcS5km).
+Se qualcosa non funziona come previsto, visita la [wiki online della community](https://pixelpocket.1612.it/r36s) o chiedi supporto nel [server Discord](https://discord.gg/H5aRTeRCef).
 
 ### Segnalare un problema o proporre un'idea
 
