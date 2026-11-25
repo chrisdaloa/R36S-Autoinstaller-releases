@@ -7,17 +7,19 @@
 ## ⬇️ Download
 
 <!-- The file name includes the version: update this link with every new release published (keep in sync with README.md). -->
-**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.8/R36S.Auto-Installer_0.1.8_x64-setup.exe)** — direct link to the Windows executable, no need to go through the Releases page.
+**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.11/R36S.Auto-Installer_0.1.11_x64-setup.exe)** — direct link to the Windows installer, no need to go through the Releases page.
 
-**[Download for Linux (AppImage)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.8/R36S.Auto-Installer_0.1.8_amd64.AppImage)** — see [Using the program on Linux](#using-the-program-on-linux).
+**[Download the portable version (.zip)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.11/R36S.Auto-Installer_0.1.11_portable.zip)** — for Windows, no installation needed: see [Portable version](#portable-version-windows).
 
-**[Download for Mac (.dmg)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.8/R36S.Auto-Installer_0.1.8_universal.dmg)** — Intel and Apple Silicon, see [Using the program on a Mac](#using-the-program-on-a-mac).
+**[Download for Linux (AppImage)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.11/R36S.Auto-Installer_0.1.11_amd64.AppImage)** — see [Using the program on Linux](#using-the-program-on-linux).
+
+**[Download for Mac (.dmg)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.11/R36S.Auto-Installer_0.1.11_universal.dmg)** — Intel and Apple Silicon, see [Using the program on a Mac](#using-the-program-on-a-mac).
 
 ☕ The program is free: if you find it useful, you can buy me a coffee on Ko-fi.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/chrisdaloa)
 
-> This repository only contains the ready-to-download executables. The project's source code lives in a separate repository. The [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) page also lists an alternative `.msi` installer and a `latest.json` file (used only internally by the program to check for updates, you don't need to download it).
+> This repository only contains the ready-to-download executables. The project's source code lives in a separate repository. The [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) page also lists an alternative `.msi` installer, the portable version and a `latest.json` file (used only internally by the program to check for updates, you don't need to download it).
 
 > **Before you start:** you need an SD card reader (built-in or USB), an **empty or already formatted** SD card of at least 8 GB, and an internet connection to download the firmware (about 2-3 GB). **Requires Windows 10 or 11** — it is not compatible with Windows 7/8.1 (systems no longer supported by Microsoft): the program cannot even start on those versions.
 
@@ -66,6 +68,8 @@ The firmware is downloaded as a compressed archive split into several parts (`.7
 ![Archive extraction](en/03-estrazione.png)
 
 A progress bar shows the percentage completed. When it finishes, press **Continue**.
+
+If the same firmware was already extracted earlier in the same folder (same files, image intact), the program recognises it, skips the extraction and tells you so. If a previous extraction was interrupted, it is redone from scratch.
 
 ---
 
@@ -151,6 +155,18 @@ The program is free: if it helped you and you want to support its development, t
 
 ---
 
+## Portable version (Windows)
+
+If you prefer not to install anything, download the **`R36S.Auto-Installer_0.1.11_portable.zip`** file from the [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) page:
+
+1. Extract **the whole folder** wherever you like (even to a USB stick) and do not move the files out of the folder: the program needs `r36s_engine.exe` and `sevenzip.exe` next to `R36S Auto-Installer.exe`.
+2. Run `R36S Auto-Installer.exe` **as administrator** (right-click → **Run as administrator**). The same Windows warnings described above apply.
+3. The portable version **does not update itself**: when a new one is out, a notice appears with a button that takes you to the download page. Download the new `.zip` and replace the folder.
+
+It needs the Microsoft **WebView2** component, already included in Windows 11 and in up-to-date Windows 10. If the program does not open, install the "WebView2 Runtime" from Microsoft's website.
+
+On Linux and Mac you do not need a separate version: the **AppImage** and the **.dmg** are used without installing anything.
+
 ## Using the program on Linux
 
 On Linux the program is an **AppImage** file (no installation needed):
@@ -165,7 +181,7 @@ The Linux version has so far been tried on a single distribution: if you run int
 
 On a Mac (Intel and Apple Silicon) the program is a **.dmg** file:
 
-1. Open the `.dmg` and drag **R36S Auto-Installer** into the **Applications** folder.
+1. Open the `.dmg` and drag **R36S Auto-Installer** into the **Applications** folder. If you prefer, you can keep it in any other folder (or on a USB stick): it does not need installing.
 2. The program is not signed with a paid Apple certificate, so the first time you open it macOS says it cannot verify it. Open **System Settings** → **Privacy & Security**, scroll to the message about R36S Auto-Installer and click **Open Anyway** (on older macOS versions, right-click the app → **Open** is enough). You only need to do this once.
 3. The steps are the same as described above. When you are about to write to the SD card, the **Mac password** window appears: it is only needed to write to the SD card. If you close it without confirming, the program tells you and you can try again.
 4. After writing, when you reinsert the card, the Mac may say "the disk is not readable". Click **Ignore**, **never "Initialize"**: it would erase the system you just wrote.

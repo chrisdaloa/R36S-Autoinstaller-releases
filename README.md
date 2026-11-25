@@ -7,17 +7,19 @@
 ## ⬇️ Download
 
 <!-- Il nome del file include la versione: aggiornare questo link ad ogni nuova release pubblicata. -->
-**[Scarica l'ultima versione](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.8/R36S.Auto-Installer_0.1.8_x64-setup.exe)** — link diretto all'eseguibile per Windows, senza passare dalla pagina Releases.
+**[Scarica l'ultima versione](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.11/R36S.Auto-Installer_0.1.11_x64-setup.exe)** — link diretto all'installer per Windows, senza passare dalla pagina Releases.
 
-**[Scarica per Linux (AppImage)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.8/R36S.Auto-Installer_0.1.8_amd64.AppImage)** — vedi [Usare il programma su Linux](#usare-il-programma-su-linux).
+**[Scarica la versione portatile (.zip)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.11/R36S.Auto-Installer_0.1.11_portable.zip)** — per Windows, senza installazione: vedi [Versione portatile](#versione-portatile-windows).
 
-**[Scarica per Mac (.dmg)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.8/R36S.Auto-Installer_0.1.8_universal.dmg)** — Intel e Apple Silicon, vedi [Usare il programma su Mac](#usare-il-programma-su-mac).
+**[Scarica per Linux (AppImage)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.11/R36S.Auto-Installer_0.1.11_amd64.AppImage)** — vedi [Usare il programma su Linux](#usare-il-programma-su-linux).
+
+**[Scarica per Mac (.dmg)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.11/R36S.Auto-Installer_0.1.11_universal.dmg)** — Intel e Apple Silicon, vedi [Usare il programma su Mac](#usare-il-programma-su-mac).
 
 ☕ Il programma è gratuito: se ti è utile, puoi offrirmi un caffè su Ko-fi.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/chrisdaloa)
 
-> Questo repository contiene solo gli eseguibili pronti per il download. Il codice sorgente del progetto vive in un repository separato. La pagina [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) elenca anche un installer `.msi` alternativo e un file `latest.json` (usato solo internamente dal programma per controllare gli aggiornamenti, non va scaricato a mano).
+> Questo repository contiene solo gli eseguibili pronti per il download. Il codice sorgente del progetto vive in un repository separato. La pagina [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) elenca anche un installer `.msi` alternativo, la versione portatile e un file `latest.json` (usato solo internamente dal programma per controllare gli aggiornamenti, non va scaricato a mano).
 
 > **Prima di iniziare:** ti serve un lettore di schede SD (interno o USB), una scheda SD **vuota o già formattata** di almeno 8 GB, e una connessione internet per il download del firmware (circa 2-3 GB). **Richiede Windows 10 o 11** — non è compatibile con Windows 7/8.1 (sistemi ormai fuori supporto Microsoft): il programma non riesce nemmeno ad avviarsi su quelle versioni.
 
@@ -66,6 +68,8 @@ Il firmware viene scaricato come archivio compresso in più parti (`.7z.001`, `.
 ![Estrazione dell'archivio](03-estrazione.png)
 
 Una barra di avanzamento mostra la percentuale completata. Al termine, premi **Continua**.
+
+Se lo stesso firmware era già stato estratto in precedenza nella stessa cartella (stessi file, immagine intatta), il programma lo riconosce, salta l'estrazione e te lo dice. Se l'estrazione era stata interrotta, viene rifatta da capo.
 
 ---
 
@@ -151,6 +155,18 @@ Il programma è gratuito: se ti è stato utile e vuoi sostenerne lo sviluppo, il
 
 ---
 
+## Versione portatile (Windows)
+
+Se preferisci non installare nulla, scarica il file **`R36S.Auto-Installer_0.1.11_portable.zip`** dalla pagina [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases):
+
+1. Estrai **tutta la cartella** dove vuoi (anche su una chiavetta USB) e non spostare i file fuori dalla cartella: il programma ha bisogno di `r36s_engine.exe` e `sevenzip.exe` accanto a `R36S Auto-Installer.exe`.
+2. Avvia `R36S Auto-Installer.exe` **come amministratore** (tasto destro → **Esegui come amministratore**). Valgono gli stessi avvisi di Windows descritti sopra.
+3. La versione portatile **non si aggiorna da sola**: quando ne esce una nuova compare un avviso con il pulsante per andare alla pagina di download. Scarica il nuovo `.zip` e sostituisci la cartella.
+
+Serve il componente Microsoft **WebView2**, già presente su Windows 11 e su Windows 10 aggiornato. Se il programma non si apre, installa il «WebView2 Runtime» dal sito di Microsoft.
+
+Su Linux e su Mac non serve una versione a parte: l'**AppImage** e il **.dmg** si usano senza installare nulla.
+
 ## Usare il programma su Linux
 
 Su Linux il programma è un file **AppImage** (non serve installarlo):
@@ -165,7 +181,7 @@ La versione per Linux è stata provata finora su una sola distribuzione: se inco
 
 Su Mac (Intel e Apple Silicon) il programma è un file **.dmg**:
 
-1. Apri il `.dmg` e trascina **R36S Auto-Installer** nella cartella **Applicazioni**.
+1. Apri il `.dmg` e trascina **R36S Auto-Installer** nella cartella **Applicazioni**. Se preferisci, puoi tenerlo in qualunque altra cartella (o su una chiavetta): non serve installarlo.
 2. Il programma non è firmato con un certificato Apple a pagamento, quindi al primo avvio macOS dice che non può verificarlo. Apri **Impostazioni di Sistema** → **Privacy e sicurezza**, scorri fino al messaggio su R36S Auto-Installer e premi **Apri comunque** (su macOS meno recenti basta fare clic destro sull'app → **Apri**). Serve farlo una volta sola.
 3. I passi sono gli stessi descritti sopra. Quando stai per scrivere sulla scheda SD compare la finestra della **password del Mac**: serve solo per scrivere sulla SD. Se la chiudi senza confermare, il programma ti avvisa e puoi riprovare.
 4. Dopo la scrittura, quando reinserisci la scheda, il Mac può dire che «il disco non è leggibile». Premi **Ignora**, **mai «Inizializza»**: cancellerebbe il sistema appena scritto.
