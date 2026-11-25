@@ -7,13 +7,13 @@
 ## ⬇️ Download
 
 <!-- The file name includes the version: update this link with every new release published (keep in sync with README.md). -->
-**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.11/R36S.Auto-Installer_0.1.11_x64-setup.exe)** — direct link to the Windows installer, no need to go through the Releases page.
+**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.12/R36S.Auto-Installer_0.1.12_x64-setup.exe)** — direct link to the Windows installer, no need to go through the Releases page.
 
-**[Download the portable version (.zip)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.11/R36S.Auto-Installer_0.1.11_portable.zip)** — for Windows, no installation needed: see [Portable version](#portable-version-windows).
+**[Download the portable version (.zip)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.12/R36S.Auto-Installer_0.1.12_portable.zip)** — for Windows, no installation needed: see [Portable version](#portable-version-windows).
 
-**[Download for Linux (AppImage)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.11/R36S.Auto-Installer_0.1.11_amd64.AppImage)** — see [Using the program on Linux](#using-the-program-on-linux).
+**[Download for Linux (AppImage)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.12/R36S.Auto-Installer_0.1.12_amd64.AppImage)** — see [Using the program on Linux](#using-the-program-on-linux).
 
-**[Download for Mac (.dmg)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.11/R36S.Auto-Installer_0.1.11_universal.dmg)** — Intel and Apple Silicon, see [Using the program on a Mac](#using-the-program-on-a-mac).
+**[Download for Mac (.dmg)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.12/R36S.Auto-Installer_0.1.12_universal.dmg)** — Intel and Apple Silicon, see [Using the program on a Mac](#using-the-program-on-a-mac).
 
 ☕ The program is free: if you find it useful, you can buy me a coffee on Ko-fi.
 
@@ -157,7 +157,7 @@ The program is free: if it helped you and you want to support its development, t
 
 ## Portable version (Windows)
 
-If you prefer not to install anything, download the **`R36S.Auto-Installer_0.1.11_portable.zip`** file from the [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) page:
+If you prefer not to install anything, download the **`R36S.Auto-Installer_0.1.12_portable.zip`** file from the [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) page:
 
 1. Extract **the whole folder** wherever you like (even to a USB stick) and do not move the files out of the folder: the program needs `r36s_engine.exe` and `sevenzip.exe` next to `R36S Auto-Installer.exe`.
 2. Run `R36S Auto-Installer.exe` **as administrator** (right-click → **Run as administrator**). The same Windows warnings described above apply.
