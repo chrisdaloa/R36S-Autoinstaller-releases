@@ -2123,15 +2123,15 @@ SOFTWARE.
 Python packages (inside r36s_engine.exe)
 ========================================
 
-- certifi 2026.10.23 | License: Mozilla Public License 2.0 (MPL 2.0) | https://github.com/certifi/python-certifi
-- charset-normalizer 3.5.2 | License: MIT | https://github.com/jawah/charset_normalizer
+- certifi 2026.11.20 | License: Mozilla Public License 2.0 (MPL 2.0) | https://github.com/certifi/python-certifi
+- charset-normalizer 3.5.3 | License: MIT | https://github.com/jawah/charset_normalizer
 - idna 3.20 | License: BSD-3-Clause | https://github.com/kjd/idna
 - pywin32 312 | License: Python Software Foundation License | https://github.com/mhammond/pywin32
 - requests 2.34.2 | License: Apache Software License | https://github.com/psf/requests
 - urllib3 2.8.0 | License: MIT | https://github.com/urllib3/urllib3
 
 ---------------------------------------------------------------------------
-Used by: certifi 2026.10.23
+Used by: certifi 2026.11.20
 ---------------------------------------------------------------------------
 
 This package contains a modified version of ca-bundle.crt:
@@ -2156,7 +2156,7 @@ one at http://mozilla.org/MPL/2.0/.
 @(#) $RCSfile: certdata.txt,v $ $Revision: 1.80 $ $Date: 2011/11/03 15:11:58 $
 
 ---------------------------------------------------------------------------
-Used by: charset-normalizer 3.5.2
+Used by: charset-normalizer 3.5.3
 ---------------------------------------------------------------------------
 
 MIT License

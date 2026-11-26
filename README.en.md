@@ -7,13 +7,13 @@
 ## ⬇️ Download
 
 <!-- The file name includes the version: update this link with every new release published (keep in sync with README.md). -->
-**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.12/R36S.Auto-Installer_0.1.12_x64-setup.exe)** — direct link to the Windows installer, no need to go through the Releases page.
+**[Download the latest version](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.13/R36S.Auto-Installer_0.1.13_x64-setup.exe)** — direct link to the Windows installer, no need to go through the Releases page.
 
-**[Download the portable version (.zip)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.12/R36S.Auto-Installer_0.1.12_portable.zip)** — for Windows, no installation needed: see [Portable version](#portable-version-windows).
+**[Download the portable version (.zip)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.13/R36S.Auto-Installer_0.1.13_portable.zip)** — for Windows, no installation needed: see [Portable version](#portable-version-windows).
 
-**[Download for Linux (AppImage)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.12/R36S.Auto-Installer_0.1.12_amd64.AppImage)** — see [Using the program on Linux](#using-the-program-on-linux).
+**[Download for Linux (AppImage)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.13/R36S.Auto-Installer_0.1.13_amd64.AppImage)** — see [Using the program on Linux](#using-the-program-on-linux).
 
-**[Download for Mac (.dmg)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.12/R36S.Auto-Installer_0.1.12_universal.dmg)** — Intel and Apple Silicon, see [Using the program on a Mac](#using-the-program-on-a-mac).
+**[Download for Mac (.dmg)](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases/download/v0.1.13/R36S.Auto-Installer_0.1.13_universal.dmg)** — Intel and Apple Silicon, see [Using the program on a Mac](#using-the-program-on-a-mac).
 
 ☕ The program is free: if you find it useful, you can buy me a coffee on Ko-fi.
 
@@ -143,11 +143,13 @@ The chosen panel is applied and the program confirms that the installation is fi
 
 ![Installation complete](en/10-completato.png)
 
+Before removing the card, press **Eject the SD card** and wait for the confirmation: the computer finishes saving the data. If an error appears, close the windows that are using the card and try again.
+
 Read the first-boot notice carefully: **the console screen may stay black or show only a cursor for several minutes** on first boot, while the system expands the filesystem — this is normal, do not turn the console off and wait.
 
 **Copy your games only after the first boot:** with the console turned off, put the SD card back in the PC and add them to the `EASYROMS` partition. Before the first boot that partition is still small (100 MB) and is set up by the console.
 
-If after waiting the screen stays black or distorted, the panel you chose is not the right one for your motherboard: turn the console off, put the SD card back in the reader, press **"Back"** at the top of the program and try the next panel in the list (Step 6).
+If after waiting the screen stays black or distorted, the panel you chose is not the right one for your motherboard: turn the console off, put the SD card back in the computer, press **"Back"** at the top of the program and try the next panel in the list (Step 6).
 
 If you like, you can give the board a name (e.g. "Red-01"): the next time you use it with this program, the working panel will be remembered and suggested automatically, so you won't have to find it again from scratch.
 
@@ -157,7 +159,7 @@ The program is free: if it helped you and you want to support its development, t
 
 ## Portable version (Windows)
 
-If you prefer not to install anything, download the **`R36S.Auto-Installer_0.1.12_portable.zip`** file from the [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) page:
+If you prefer not to install anything, download the **`R36S.Auto-Installer_0.1.13_portable.zip`** file from the [Releases](https://github.com/chrisdaloa/R36S-Autoinstaller-releases/releases) page:
 
 1. Extract **the whole folder** wherever you like (even to a USB stick) and do not move the files out of the folder: the program needs `r36s_engine.exe` and `sevenzip.exe` next to `R36S Auto-Installer.exe`.
 2. Run `R36S Auto-Installer.exe` **as administrator** (right-click → **Run as administrator**). The same Windows warnings described above apply.
@@ -184,9 +186,10 @@ On a Mac (Intel and Apple Silicon) the program is a **.dmg** file:
 1. Open the `.dmg` and drag **R36S Auto-Installer** into the **Applications** folder. If you prefer, you can keep it in any other folder (or on a USB stick): it does not need installing.
 2. The program is not signed with a paid Apple certificate, so the first time you open it macOS says it cannot verify it. Open **System Settings** → **Privacy & Security**, scroll to the message about R36S Auto-Installer and click **Open Anyway** (on older macOS versions, right-click the app → **Open** is enough). You only need to do this once.
 3. The steps are the same as described above. When you are about to write to the SD card, the **Mac password** window appears: it is only needed to write to the SD card. If you close it without confirming, the program tells you and you can try again.
-4. After writing, when you reinsert the card, the Mac may say "the disk is not readable". Click **Ignore**, **never "Initialize"**: it would erase the system you just wrote.
+4. macOS protects the disk: without the **Full Disk Access** permission the writing fails. Grant it before you start (or when the program asks): open **System Settings** → **Privacy & Security** → **Full Disk Access**, click **+**, choose **R36S Auto-Installer** and turn its switch on, then quit the program completely and open it again. After the installation you can remove the permission from the same menu; if writing fails again after an update, remove the program from the list and add it back.
+5. After writing, when you reinsert the card, the Mac may say "the disk is not readable". Click **Ignore**, **never "Initialize"**: it would erase the system you just wrote.
 
-The Mac version has not yet been tested on a real Mac: if you run into problems, use the **Report / Suggest** button in the program.
+The Mac version has so far been tried only on a virtual Intel Mac: if you run into problems, use the **Report / Suggest** button in the program.
 
 ## Problems with the analog sticks?
 
