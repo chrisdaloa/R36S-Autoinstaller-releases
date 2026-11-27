@@ -208,7 +208,7 @@ At any time you can press **Report / Suggest** at the top right: a form opens ov
 ![Report a problem or suggest an idea](en/11-segnala.png)
 
 - Choose whether **something doesn't work** or **you have a suggestion**, write a short title and a description and press **Send**. No account needed.
-- For problems you can attach the last lines of the program log: **Show what will be sent** shows you exactly what goes out (your user name is removed from file paths). The log is never sent unless you tick the box.
+- For problems the last lines of the program log are attached too, as they help understand what went wrong: **Show what will be sent** shows you exactly what goes out (your user name is removed from file paths). If you do not want to send them, untick the box.
 - The program version, the Windows version and the step you are on are sent too.
 - The report becomes **public** on GitHub: do not write emails, phone numbers or other personal data. After sending you get a link to follow it.
 

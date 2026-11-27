@@ -208,7 +208,7 @@ In qualunque momento puoi premere **Segnala / Suggerisci** in alto a destra: si 
 ![Segnala un problema o suggerisci un'idea](11-segnala.png)
 
 - Scegli se **qualcosa non funziona** o se **hai un suggerimento**, scrivi un titolo breve e una descrizione e premi **Invia**. Non serve nessun account.
-- Per i problemi puoi allegare le ultime righe del registro del programma: con **Mostra cosa verrà inviato** vedi esattamente cosa parte (il nome del tuo utente nei percorsi viene tolto). Il registro non viene mai inviato se non spunti la casella.
+- Per i problemi vengono allegate anche le ultime righe del registro del programma, che aiutano a capire cosa è andato storto: con **Mostra cosa verrà inviato** vedi esattamente cosa parte (il nome del tuo utente nei percorsi viene tolto). Se non vuoi inviarle, togli la spunta dalla casella.
 - Vengono inviati anche la versione del programma, la versione di Windows e il passo in cui ti trovi.
 - La segnalazione diventa **pubblica** su GitHub: non scrivere email, numeri di telefono o altri dati personali. Dopo l'invio trovi il link per seguirla.
 
